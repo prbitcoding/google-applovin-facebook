@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/progressbar_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Ads is Loading"
+        android:textStyle="normal"
+        android:textFontWeight="800"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/black"
+        android:padding="3dp"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Google-AppLovin-Facebook</string>
+    <string name="no_connection">No Internet Available</string>
+    <string name="admanager">ad_manager</string>
+    <string name="google_ads">google_ads</string>
+    <string name="app_lovin">app_lovin</string>
+    <string name="unity_ads">unity_ads</string>
+    <string name="facebook_ads">facebook_ads</string>
+    <string name="qureka_ads">qureka_ads</string>
+    <string name="custom_ads">custom_ads</string>
+    <string name="ads_will_loading">Ads will loading</string>
+</resources>
