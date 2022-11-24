@@ -3,9 +3,9 @@ package com.btcpiyush.ads.applovin
 import android.app.Activity
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import com.appharbr.sdk.engine.AdSdk
+/*import com.appharbr.sdk.engine.AdSdk
 import com.appharbr.sdk.engine.AdStateResult
-import com.appharbr.sdk.engine.AppHarbr
+import com.appharbr.sdk.engine.AppHarbr*/
 import com.applovin.mediation.*
 import com.applovin.mediation.ads.MaxRewardedAd
 import com.btcpiyush.ads.base.CommonAds
@@ -63,7 +63,7 @@ class AppLovinRewardAd(override val adUnitId: String) : IntraAds(adUnitId) {
 
                 }
 
-                if (appLovinWrapper.IsGEOEdgeSDKInitialized()) {
+                /*if (appLovinWrapper.IsGEOEdgeSDKInitialized()) {
                     callback =
                         AppHarbr.addRewardedAd(
                             AdSdk.MAX,
@@ -72,7 +72,7 @@ class AppLovinRewardAd(override val adUnitId: String) : IntraAds(adUnitId) {
                             activity.lifecycle,
                             appLovinWrapper.getGEOSDKWrapper()
                         )
-                }
+                }*/
 
                 rewardAd?.setListener(callback)
                 rewardAd?.loadAd()
@@ -86,14 +86,14 @@ class AppLovinRewardAd(override val adUnitId: String) : IntraAds(adUnitId) {
         rewardAd?.let {
             if (it.isReady) {
 
-                if (CommonAds.flutterAppLovinAds?.IsGEOEdgeSDKInitialized() == true) {
+                /*if (CommonAds.flutterAppLovinAds?.IsGEOEdgeSDKInitialized() == true) {
                     val rewardState = AppHarbr.getRewardedState(it)
                     // Toast.makeText(activity, "onAdLoaded apploving: status ------ >"+interstitialState, Toast.LENGTH_LONG).show()
                     if (rewardState == AdStateResult.BLOCKED) {
                         listener?.onAdLoadError()
                         return@show
                     }
-                }
+                }*/
 
                 it.setListener(object : MaxRewardedAdListener {
 

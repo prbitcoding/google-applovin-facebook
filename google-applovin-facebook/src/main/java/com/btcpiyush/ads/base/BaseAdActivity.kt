@@ -61,12 +61,12 @@ abstract class BaseAdActivity : BaseConnectionActivity() {
                     CommonAds.flutterAppLovinAds?.setVerboseLogging(true)
                     CommonAds.flutterAppLovinAds?.setMediationProvider(AppLovinMediationProvider.MAX)
                     CommonAds.flutterAppLovinAds?.initialize {}
-                    if (it.adSetting?.isGeoedgeSdkFlag == true) {
+                  /*  if (it.adSetting?.isGeoedgeSdkFlag == true) {
                         CommonAds.flutterAppLovinAds?.initGEOEdgeSDK(
                             this.applicationContext,
                             (it.adSetting?.geoedgeSdkKey ?: "")
                         )
-                    }
+                    }*/
                 }
             }
         }

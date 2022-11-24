@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ads_Example.iml" filepath="$PROJECT_DIR$/.idea/modules/Ads_Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Ads_Example.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Ads_Example.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Ads_Example.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Ads_Example.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Ads_Example.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Ads_Example.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Ads_Example.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Ads_Example.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/google-applovin-facebook/Ads_Example.google-applovin-facebook.iml" filepath="$PROJECT_DIR$/.idea/modules/google-applovin-facebook/Ads_Example.google-applovin-facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/google-applovin-facebook/Ads_Example.google-applovin-facebook.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/google-applovin-facebook/Ads_Example.google-applovin-facebook.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/google-applovin-facebook/Ads_Example.google-applovin-facebook.main.iml" filepath="$PROJECT_DIR$/.idea/modules/google-applovin-facebook/Ads_Example.google-applovin-facebook.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/google-applovin-facebook/Ads_Example.google-applovin-facebook.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/google-applovin-facebook/Ads_Example.google-applovin-facebook.unitTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.applovin:applovin-sdk:11.5.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/839724d4572f7d2bc4945fe50a377a64/transformed/jetified-applovin-sdk-11.5.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/839724d4572f7d2bc4945fe50a377a64/transformed/jetified-applovin-sdk-11.5.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/839724d4572f7d2bc4945fe50a377a64/transformed/jetified-applovin-sdk-11.5.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.applovin/applovin-sdk/11.5.5/637f5bf41a0db882d28c56914ea91c4367f8ff90/applovin-sdk-11.5.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

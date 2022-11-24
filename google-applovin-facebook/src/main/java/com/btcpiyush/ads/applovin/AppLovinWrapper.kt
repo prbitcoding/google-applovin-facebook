@@ -10,13 +10,13 @@ import android.content.pm.PackageManager
 import android.text.TextUtils
 import android.util.Log
 import android.widget.Toast
-import com.appharbr.sdk.configuration.AHSdkConfiguration
+/*import com.appharbr.sdk.configuration.AHSdkConfiguration
 import com.appharbr.sdk.engine.AdBlockReason
 import com.appharbr.sdk.engine.AppHarbr
 import com.appharbr.sdk.engine.InitializationFailureReason
 import com.appharbr.sdk.engine.adformat.AdFormat
 import com.appharbr.sdk.engine.listeners.AHListener
-import com.appharbr.sdk.engine.listeners.OnAppHarbrInitializationCompleteListener
+import com.appharbr.sdk.engine.listeners.OnAppHarbrInitializationCompleteListener*/
 import com.applovin.sdk.AppLovinSdk
 import com.applovin.sdk.AppLovinSdk.SdkInitializationListener
 import com.applovin.sdk.AppLovinSdkConfiguration
@@ -105,7 +105,7 @@ class AppLovinWrapper {
         return _isGeoEdgeInitialized
     }
 
-    fun initGEOEdgeSDK(act: Context, geoedgeSdkKey: String) {
+    /*fun initGEOEdgeSDK(act: Context, geoedgeSdkKey: String) {
         try {
             if (geoedgeSdkKey.isNullOrEmpty()) {
                 return@initGEOEdgeSDK
@@ -135,9 +135,9 @@ class AppLovinWrapper {
 
     fun getGEOSDKWrapper() : AHListener {
         return AHListener { view: Any?, unitId: String, adFormat: AdFormat?, reasons: Array<AdBlockReason?>? ->
-            /*Toast.makeText(act, "AppHarbr - onAdBlocked for: $unitId, reason: " + Arrays.toString(
+            *//*Toast.makeText(act, "AppHarbr - onAdBlocked for: $unitId, reason: " + Arrays.toString(
                 reasons
-            ), Toast.LENGTH_SHORT ).show()*/
+            ), Toast.LENGTH_SHORT ).show()*//*
             Log.e(
                 "LOG",
                 "AppHarbr - onAdBlocked for: $unitId, reason: " + Arrays.toString(
@@ -145,5 +145,5 @@ class AppLovinWrapper {
                 )
             )
         }
-    }
+    }*/
 }

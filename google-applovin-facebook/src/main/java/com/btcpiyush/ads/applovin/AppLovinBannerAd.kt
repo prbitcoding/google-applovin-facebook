@@ -6,10 +6,10 @@ import android.util.Log
 import android.view.Gravity
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
-import com.appharbr.sdk.engine.AdBlockReason
+/*import com.appharbr.sdk.engine.AdBlockReason
 import com.appharbr.sdk.engine.AdSdk
 import com.appharbr.sdk.engine.AppHarbr
-import com.appharbr.sdk.engine.adformat.AdFormat
+import com.appharbr.sdk.engine.adformat.AdFormat*/
 import com.applovin.mediation.MaxAd
 import com.applovin.mediation.MaxAdViewAdListener
 import com.applovin.mediation.MaxError
@@ -75,9 +75,9 @@ class AppLovinBannerAd(override val adUnitId: String, val adSize: AdSize = AdSiz
                         override fun onAdCollapsed(ad: MaxAd?) {}
                     })
 
-                    if (appLovinWrapper.IsGEOEdgeSDKInitialized()) {
+                  /*  if (appLovinWrapper.IsGEOEdgeSDKInitialized()) {
                         AppHarbr.addBannerView(AdSdk.MAX, it, context.lifecycle, appLovinWrapper.getGEOSDKWrapper())
-                    }
+                    }*/
 
                     it.loadAd()
                     it.startAutoRefresh()

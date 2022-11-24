@@ -4,11 +4,11 @@ import android.app.Activity
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.appharbr.sdk.engine.AdBlockReason
+/*import com.appharbr.sdk.engine.AdBlockReason
 import com.appharbr.sdk.engine.AdSdk
 import com.appharbr.sdk.engine.AdStateResult
 import com.appharbr.sdk.engine.AppHarbr
-import com.appharbr.sdk.engine.adformat.AdFormat
+import com.appharbr.sdk.engine.adformat.AdFormat*/
 import com.applovin.mediation.*
 import com.applovin.mediation.ads.MaxInterstitialAd
 import com.btcpiyush.ads.base.CommonAds
@@ -61,7 +61,7 @@ class AppLovinInterstitialAd(override val adUnitId: String) : IntraAds(adUnitId)
                     }
                 }
 
-                if (appLovinWrapper.IsGEOEdgeSDKInitialized()) {
+                /*if (appLovinWrapper.IsGEOEdgeSDKInitialized()) {
                     callback =
                         AppHarbr.addInterstitial(
                             AdSdk.MAX,
@@ -70,7 +70,7 @@ class AppLovinInterstitialAd(override val adUnitId: String) : IntraAds(adUnitId)
                             context.lifecycle,
                             appLovinWrapper.getGEOSDKWrapper()
                         )
-                }
+                }*/
 
                 intraAd?.setListener(callback)
                 intraAd?.loadAd()
@@ -84,14 +84,14 @@ class AppLovinInterstitialAd(override val adUnitId: String) : IntraAds(adUnitId)
         intraAd?.let {
             if (it.isReady) {
 
-                if (CommonAds.flutterAppLovinAds?.IsGEOEdgeSDKInitialized() == true) {
+                /*if (CommonAds.flutterAppLovinAds?.IsGEOEdgeSDKInitialized() == true) {
                     val interstitialState = AppHarbr.getInterstitialState(it)
                     // Toast.makeText(activity, "onAdLoaded apploving: status ------ >"+interstitialState, Toast.LENGTH_LONG).show()
                     if (interstitialState == AdStateResult.BLOCKED) {
                         listener?.onAdLoadError()
                         return@show
                     }
-                }
+                }*/
 
                 it.setListener(object: MaxAdListener {
                     override fun onAdLoaded(ad: MaxAd?) {}
